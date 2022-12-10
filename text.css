@@ -1,0 +1,9 @@
+html {
+  /*?Default font-size 16px*/
+}
+h1 {
+  color: red; /*?değiştirilmeidği sürece h1 in büyüklüğü default font-size ın iki katıdır 16.2=32px dir*/
+}
+p {
+  /*?p nin size default fony-size a eşittir*/
+}

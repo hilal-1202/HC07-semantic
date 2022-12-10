@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+header {
+  padding: 40px;
+  background-color: red;
+  color: white;
+  font-size: 40px;
+}
+
+nav {
+  background-color: hsla(295, 100%, 50%, 0.555);
+  background-color: rgba(232, 24, 232, 0, 558);
+  background-color: #bc6bfa;
+  padding: 20px;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+nav a {
+  color: aliceblue;
+  /*?bir yazının çizgilerini kaldırır.*/
+  text-decoration: underline; /*?alt çizgili*/
+  text-decoration: overline; /*?üst çizgili*/
+  text-decoration: line-through; /*?üzeri çizgili*/
+  text-decoration: none; /*?çizgi kaldırıldı*/
+}
+/*?ziyaret edilmmemiş link stilleri*/
+/*nav a:link {
+    color:green;
+ }
+ /*?ziyaret edilmiş link stilleri*/
+/*nav a:visited {
+    color: yellow;
+ }
+ /*?linkin tikli kaldığı boyunca stili*/
+/*nav a:active {
+    color:red;
+ }*/
+/*?linkin üzerine gelindiğinde */
+nav a:hover {
+  text-decoration: underline;
+}
+h2 {
+  margin: 20px 0;
+}
+figcaption {
+  margin-bottom: 30px;
+}
+footer {
+  background: #000;
+  padding: 20px;
+  color: white;
+}
